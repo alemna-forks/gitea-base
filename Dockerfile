@@ -26,7 +26,7 @@ RUN go build contrib/environment-to-ini/environment-to-ini.go
 FROM alpine:3.13
 LABEL maintainer="maintainers@gitea.io"
 
-EXPOSE 22 3000
+EXPOSE 80
 
 RUN apk --no-cache add \
     bash \
